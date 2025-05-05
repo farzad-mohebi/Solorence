@@ -1,6 +1,6 @@
-# NoteUp v0.1
+# Solorence v0.1
 
-**NoteUp** is a web application built with Django (backend) and Nuxt.js (frontend). It serves as a consultative note-taking system, designed to streamline communication and documentation between professionals.
+**Solorence** is a web application built with Django (backend) and Nuxt.js (frontend). It serves as a consultative note-taking system, designed to streamline communication and documentation between professionals.
 
 ## Project Structure
 
@@ -19,8 +19,8 @@ Make sure you have these tools installed on your system:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/farzad-mohebi/noteup
-   cd noteup
+   git clone https://github.com/farzad-mohebi/Solorence
+   cd Solorence
    ```
 
 2. Start the project with Docker Compose:
@@ -55,4 +55,4 @@ Ensure you create and configure environment variables in both `core/.env` and `f
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the LGP License.
