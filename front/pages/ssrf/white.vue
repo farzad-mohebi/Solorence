@@ -1,0 +1,3 @@
+<template>
+  <EditorWhiteBoard />
+</template>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Solorence | {{ subject }}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f6f2;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .email-container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .email-header {
+            background-color: #795548;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .email-header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .email-body {
+            padding: 20px;
+            text-align: left;
+        }
+        .email-body p {
+            margin: 10px 0;
+        }
+        .email-button {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .email-button a {
+            text-decoration: none;
+            background-color: #795548;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .email-footer {
+            background-color: #f4f4f4;
+            color: #777;
+            padding: 10px;
+            text-align: center;
+            font-size: 12px;
+        }
+		.py{
+			padding: 20px 0;
+		}
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <div class="email-header">
+            <h1>{{ subject }}</h1>
+        </div>
+        <div class="email-body">
+            <h2>Hi {{ username }},</h2>
+            <p>{{ subject }}</p>
+            <div class="email-button py">
+                <a href="https://solorence.com/home" target="_blank">Go to My Dashboard</a>
+            </div>
+        </div>
+        <div class="email-footer">
+            &copy; {{ year }} <a href="https://solorence.com"> Solorence</a>. All rights reserved.
+        </div>
+    </div>
+</body>
+</html>

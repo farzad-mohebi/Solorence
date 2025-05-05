@@ -1,0 +1,176 @@
+@font-face {
+  font-family: IRANSans;
+  src: url("/fonts/IRANSansWeb.eot");
+  src: url("/fonts/IRANSansWeb.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/IRANSansWeb.woff2") format("woff2"),
+    url("/fonts/IRANSansWeb.woff") format("woff"),
+    url("/fonts/IRANSansWeb.ttf") format("truetype");
+}
+
+html[dir="rtl"],
+html[dir="rtl"] h1,
+html[dir="rtl"] .text-h1,
+html[dir="rtl"] h2,
+html[dir="rtl"] .text-h2,
+html[dir="rtl"] h3,
+html[dir="rtl"] .text-h3,
+html[dir="rtl"] h4,
+html[dir="rtl"] .text-h4,
+html[dir="rtl"] h5,
+html[dir="rtl"] .text-h5,
+html[dir="rtl"] h6,
+html[dir="rtl"] .text-h6,
+html[dir="rtl"] .text-body-1,
+html[dir="rtl"] .text-body-2,
+html[dir="rtl"] .v-label,
+html[dir="rtl"] .text-caption {
+  font-family: IRANSans, sans-serif;
+}
+
+html[dir="rtl"] .v-locale--is-ltr {
+  direction: rtl;
+}
+
+html[dir="rtl"] .v-btn,
+html[dir="rtl"] .v-card-text,
+html[dir="rtl"] .text-body-1,
+html[dir="rtl"] .text-body-2,
+html[dir="rtl"] .v-label,
+html[dir="rtl"] .text-caption {
+  letter-spacing: 0 !important;
+}
+
+html[dir="rtl"] .cdx-nested-list__item:before {
+  counter-increment: item;
+  margin-left: 5px;
+  margin-right: 0;
+  white-space: nowrap;
+}
+html[dir="rtl"] .ce-popover-item__title {
+  margin-right: 0;
+  margin-left: auto;
+}
+html[dir="rtl"] .cdx-attaches--with-file .cdx-attaches__file-icon-background {
+  margin-left: 12px;
+}
+html[dir="rtl"] .cdx-attaches--with-file .cdx-attaches__file-icon-label {
+  right: 3px;
+  left: auto;
+}
+
+.codex-editor__redactor {
+  padding-top: 20px !important;
+  padding-bottom: 300px !important;
+  border-radius: 4px;
+  overflow: visible;
+  width: 100%;
+}
+
+.codex-editor--narrow .ce-toolbar__actions {
+  left: -60px;
+  right: 0;
+}
+html[dir="rtl"] .codex-editor--narrow .ce-toolbar__actions {
+  right: -60px;
+  left: 0;
+}
+@media (min-width: 651px) {
+  .codex-editor--narrow .codex-editor__redactor {
+    margin-right: 50px;
+    margin-left: 0;
+  }
+  html[dir="rtl"] .codex-editor--narrow .codex-editor__redactor {
+    margin-left: 50px;
+    margin-right: 0;
+  }
+}
+@media (min-width: 768px) {
+  .ce-block__content,
+  .ce-toolbar__content {
+    max-width: calc(
+      100% - 85px
+    ) !important; /* example value, adjust for your own use case */
+  }
+  .ce-toolbar__actions {
+    margin-right: auto;
+    width: fit-content;
+  }
+  html[dir="rtl"] .ce-toolbar__actions {
+    margin-right: 0;
+    margin-left: auto;
+    width: fit-content;
+  }
+}
+.less-prepend-space .v-list-item__spacer {
+  width: 15px !important;
+}
+.less-prepend-space .v-list-item__prepend .v-icon {
+  opacity: 1 !important;
+}
+.ltr {
+  direction: ltr !important;
+}
+
+.ltr.text-left input {
+  direction: ltr;
+  text-align: left;
+}
+
+.ltr.text-left .v-field-label {
+  left: 0px;
+}
+
+.layout-enter-active,
+.layout-leave-active {
+  transition: all 0.2s;
+}
+
+.layout-enter-from,
+.layout-leave-to {
+  opacity: 0;
+  filter: blur(1rem);
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.2s;
+}
+
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+  filter: blur(1rem);
+}
+
+.google-meet-card .d-complete-show {
+  display: none !important;
+}
+
+.google-meet-card .d-complete-hide {
+  display: flex !important;
+}
+
+.google-meet-card.complete .d-complete-show {
+  display: flex !important;
+}
+
+.google-meet-card.complete .d-complete-hide {
+  display: none !important;
+}
+
+.google-meet-card:not(.complete) .d-scheduled-show,
+.google-meet-card:not(.complete) .d-scheduled-hide {
+  display: none !important;
+}
+
+.google-meet-card.scheduled .d-scheduled-hide {
+  display: none !important;
+}
+
+.google-meet-card.scheduled .d-scheduled-show {
+  display: flex !important;
+}
+
+.google-meet-card.complete:not(.scheduled) .d-scheduled-show {
+  display: none !important;
+}
